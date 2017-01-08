@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+	<head>
+		<title>Angular Bootstrap</title>
+		<script type="text/javascript" src="angular.js"></script>
+		<script type="text/javascript" src="jquery.js"></script>
+		<script type="text/javascript" src="controller.js"></script>
+		<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="bootstrap-theme.min.css">
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body ng-controller="myController">
+		<div class="container">
+			<form class="form-horizontal">
+				<div class=" form-group gg-class">
+					<label class="control-label pull-left label-margin">Describe</label>
+					<div class="col-md-2">
+						<select class="form-control" ng-options="item.codigo as item.name for item in lista1" ng-model="itemSelected1">
+							<option value="">Field 1</option>
+						</select>
+					</div>
+					<div class="col-md-2">
+						<select class="form-control" ng-options="item.codigo as item.name for item in lista1" ng-model="itemSelected1">
+							<option value="">Fiedl 2</option>
+						</select>
+					</div>
+					<div class="col-md-2">
+						<select class="form-control" ng-options="item.codigo as item.name for item in lista2" ng-model="itemSelected2">
+							<option value="">Field 3</option>
+						</select>
+					</div>
+					<div class="col-md-2">
+						<select class="form-control" ng-options="item.codigo as item.name for item in lista1" ng-model="itemSelected3">
+							<option value="">Field 4</option>
+						</select>
+					</div>
+				</div>
+				<div class="form-group gg-class">
+					<label class="control-label pull-left hidden-label">Describe</label>
+					<div class="col-md-2">
+						<select class="form-control" ng-options="item.codigo as item.name for item in lista1" ng-model="itemSelected3">
+							<option value="">Field 5</option>
+						</select>
+					</div>
+				</div>
+			</form>
+			<br>
+			<!-- <form class="form-inline">
+					<div class="row">
+							<div class="form-group" style="width: 33%">
+									<label class="control-label">Exibir por:</label>
+									
+									<select class="form-control" style="width: 100%" ng-options="item.codigo as item.name for item in lista1" ng-model="itemSelected1">
+											<option value="">Empresa</option>
+									</select>
+									
+							</div>
+							<div class="form-group" style="width: 33%">
+									
+									
+									<select class="form-control" style="width: 100%" ng-options="item.codigo as item.name for item in lista1" ng-model="itemSelected1">
+											<option value="">Produto</option>
+									</select>
+									
+									
+									
+									
+									
+							</div>
+							<div class="form-group" style="width: 33%">
+									
+									
+									<select class="form-control" style="width: 100%" ng-options="item.codigo as item.name for item in lista2" ng-model="itemSelected2">
+											<option value="">Produto Comercial</option>
+									</select>
+									
+									
+							</div>
+							<div class="form-group" style="width: 33%">
+									<select class="form-control" style="width: 100%" ng-options="item.codigo as item.name for item in lista1" ng-model="itemSelected3">
+											<option value="">Oferta</option>
+									</select>
+							</div>
+							<div class="form-group" style="width: 33%">
+									<select class="form-control" style="width: 100%" ng-options="item.codigo as item.name for item in lista1" ng-model="itemSelected3">
+											<option value="">Tipo Cultura</option>
+									</select>
+							</div>
+					</div>
+					
+			</form> -->
+		</div>
+	</body>
+</html>

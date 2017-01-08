@@ -1,0 +1,34 @@
+.form-group.gg-class {
+	margin-bottom: 0px;
+}
+
+.gg-class .col-lg-1, .gg-class  .col-lg-10, .gg-class .col-lg-11, .gg-class  .col-lg-12, .gg-class  .col-lg-2, 
+.gg-class  .col-lg-3, .gg-class  .col-lg-4, .gg-class .col-lg-5, .gg-class .col-lg-6, .gg-class .col-lg-7, 
+.gg-class .col-lg-8, .gg-class .col-lg-9, .gg-class .col-md-1, .gg-class .col-md-10, .gg-class .col-md-11, 
+.gg-class .col-md-12, .gg-class .col-md-2 ,.gg-class .col-md-3,.gg-class  .col-md-4,.gg-class  .col-md-5, 
+.gg-class .col-md-6, .gg-class .col-md-7, .gg-class .col-md-8, .gg-class .col-md-9, .col-sm-1, 
+.gg-class .col-sm-10, .gg-class .col-sm-11, .gg-class .col-sm-12, .gg-class .col-sm-2, .gg-class .col-sm-3, 
+.gg-class .col-sm-4, .gg-class .col-sm-5, .gg-class .col-sm-6, .gg-class .col-sm-7, .gg-class .col-sm-8, 
+.gg-class .col-sm-9, .gg-class .col-xs-1, .gg-class .col-xs-10, .gg-class .col-xs-11, .gg-class .col-xs-12, 
+.gg-class .col-xs-2, .gg-class .col-xs-3, .gg-class .col-xs-4, .gg-class .col-xs-5, .gg-class .col-xs-6, 
+.gg-class .col-xs-7, .gg-class .col-xs-8, .gg-class .col-xs-9, .gg-class .label-margin {
+
+	padding-right: 0px;
+	margin-bottom: 15px;
+
+}
+
+.gg-class .hidden-label {
+		visibility: hidden;
+		display: none;
+}
+
+
+@media screen and (min-width: 992px){
+	.gg-class .hidden-label {
+		display: block;
+	}
+	
+}
+
+
