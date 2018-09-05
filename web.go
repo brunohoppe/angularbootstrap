@@ -11,11 +11,11 @@ func main() {
 
 	http.Handle("/", http.StripPrefix("/", http.FileServer(http.Dir("./"))))
 
-	port := os.Getenv("OPENSHIFT_GO_PORT")
+	port := os.Getenv("PORT")
 	if port == "" {
 		port = "8081"
 	}
-	ip := os.Getenv("OPENSHIFT_GO_IP")
+	ip := os.Getenv("IP")
 	if ip == "" {
 		ip = "127.0.0.1"
 	}
