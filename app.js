@@ -32,7 +32,7 @@ server.register([{
         path: '/{param*}',
         handler: {
           directory: {
-              path: 'dist/datepickpoc'
+              path: 'dist/bitteste'
           }
         }
     });
@@ -41,7 +41,7 @@ server.register([{
         path: '/',
         config: {
           handler: (request, reply) => {
-            reply.file('dist/datepickpoc/index.html');
+            reply.file('dist/bitteste/index.html');
           }
         }
     });
